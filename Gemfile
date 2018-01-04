@@ -11,12 +11,7 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
 gem 'elasticsearch-model'
-
-group :development, :test do
-  gem 'pry-byebug'
-end
 
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
